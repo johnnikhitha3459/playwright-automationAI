@@ -1,0 +1,24 @@
+{
+  "name": "playwright-project-with-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node scripts/test-with-allure.js",
+    "test:chromium": "node scripts/test-with-allure.js --project=chromium",
+    "test:api": "node scripts/test-with-allure.js --project=api",
+    "test:headed": "node scripts/test-with-allure.js --headed",
+    "report:allure": "allure open allure-report",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.14.0"
+  }
+}

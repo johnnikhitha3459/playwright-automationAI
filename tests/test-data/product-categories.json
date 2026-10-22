@@ -1,0 +1,14 @@
+[
+  {
+    "category": "phone",
+    "expectedProduct": "Samsung galaxy s6"
+  },
+  {
+    "category": "notebook",
+    "expectedProduct": "Sony vaio i5"
+  },
+  {
+    "category": "monitor",
+    "expectedProduct": "Apple monitor 24"
+  }
+]
